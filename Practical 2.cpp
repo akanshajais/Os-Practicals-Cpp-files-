@@ -28,7 +28,7 @@ int main()
 		/* parent process */
 		/* parent will wait for the child to complete */
 		wait(NULL);
-        printf("Parent process!!!!!");
+        printf("Parent process executed !!!!!");
     }
     return 0;
 }
