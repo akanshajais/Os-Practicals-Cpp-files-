@@ -90,7 +90,7 @@ void findavgTime(int processes[], int n, int bt[],
     // Function to find turn around time for all processes
     findTurnAroundTime(processes, n, bt, wt, tat);
  
- 	cout<<"\n  // COMPUTING WAITING TIME AND TURN AROUND TIME //\n"
+ 	cout<<"\n  // COMPUTING WAITING TIME AND TURN AROUND TIME //\n";
     // Display processes along with all details
     cout << "Processes "<< " Burst time "
         << " Waiting time " << " Turn around time\n";
